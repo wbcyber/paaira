@@ -159,12 +159,12 @@ nav .Navigation .nav-details  button {
 /*this is the first black button text decoration until you see an end comment*/
 
   .Start-an-Exchange1 {
-    width: 200px;
+    width: 100px;
     height: 44px;
     flex-grow: 0;
     font-family: Urbanist;
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 350;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.2;
@@ -183,7 +183,7 @@ nav .Navigation .nav-details  button {
   /*the next body*/
   main {
     width: 100%;
-    height: 5000px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -307,10 +307,10 @@ nav .Navigation .nav-details  button {
     padding: 80px 56px;
     border: solid 1px black;
   }
-  .Vector {
+  .Vector1 {
     width: 100px;
     height: 100px;
-    margin: 0 80.7px 40px 40.7px;
+    margin: 0 40px 20px 10px;
   }
   .Receive-money-on-PayPal-through-us-and-have-them-sent-to-your-bank-account {
     height: 108px;
@@ -429,32 +429,7 @@ nav .Navigation .nav-details  button {
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* this is for the second rate(coloured box) */
 
   .rate1 {
     height: 400px;
@@ -523,3 +498,50 @@ nav .Navigation .nav-details  button {
     text-align: left;
     color: var(--active-secondary);
   }
+
+  .footer-details {
+    height: 150px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 96px;
+    padding: 40px 0;
+    background-color: var(--active-secondary);
+  }
+  .Paaira-2023-All-rights-reserved {
+    width: 350px;
+    height: 33px;
+    flex-grow: 0;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    margin: 25px 0px 25px 50px ;
+    color: var(--active-primary);
+  }
+  .social-icons {
+    width: 18px;
+    height: 32px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 16px;
+    padding: 0;
+    
+  }
+  .Vector2 {
+    width: 25px;
+    height: 22px;
+    border: solid 1px var(--active-primary);
+  
+  }
+    
