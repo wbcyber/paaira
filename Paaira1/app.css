@@ -50,12 +50,7 @@ img.logo {
     text-align: left;
     color: var(--active-secondary);
   }
-  /* .before {
-    width: 1px;
-    height: 83px;
-    flex-grow: 0;
-    background-color: var(--disabled-secondary);
-  } */
+ 
 nav .Navigation .nav-details  button {
     width: 350px;
     height: 50px;
@@ -469,6 +464,11 @@ nav .Navigation .nav-details  button {
     text-align: center;
     color: var(--active-secondary);
   }
+  .Vector3 {
+    width: 8px;
+    height: 8px;
+    margin: 0 20px 0 0;
+  }
   .btn1 {
     width: 225px;
     height: 60px;
@@ -478,7 +478,7 @@ nav .Navigation .nav-details  button {
     justify-content: center;
     align-items: left;
     gap: 16px;
-    padding: 20px 48px;
+    padding: 20px 28px;
     border: solid 1px var(--active-secondary);
     margin-top: 60px;
   }
@@ -489,7 +489,7 @@ nav .Navigation .nav-details  button {
     height: 44px;
     flex-grow: 0;
     font-family: Urbanist;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -504,12 +504,13 @@ nav .Navigation .nav-details  button {
     align-self: stretch;
     flex-grow: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: stretch;
     gap: 96px;
     padding: 40px 0;
     background-color: var(--active-secondary);
+  
   }
   .Paaira-2023-All-rights-reserved {
     width: 350px;
@@ -523,25 +524,25 @@ nav .Navigation .nav-details  button {
     line-height: 1.2;
     letter-spacing: normal;
     text-align: left;
-    margin: 25px 0px 25px 50px ;
+    margin: 25px 100px 25px 50px ;
     color: var(--active-primary);
   }
   .social-icons {
-    width: 18px;
+    width: 430px;
     height: 32px;
     flex-grow: 0;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: flex-end;
     gap: 16px;
     padding: 0;
-    
   }
   .Vector2 {
-    width: 25px;
-    height: 22px;
-    border: solid 1px var(--active-primary);
+    width: 20px;
+    height: 25px;
+    margin: 100px 0px -25px 0px ;
+    /* border: solid 1px var(--active-primary); */
   
   }
     
